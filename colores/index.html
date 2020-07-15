@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>David Avendaño</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -28,6 +29,30 @@
   </div>
   </div>
 
-  <script src= "javascript/code.js" type="text/javascript"></script>
+<script type="text/javascript">
+        let colorGInput = document.querySelector("#colorG");
+        let hexaGInput = document.querySelector("#hexaG");
+        let colorPInput = document.querySelector("#colorP");
+        let hexaPInput = document.querySelector("#hexaP");
+
+
+        colorGInput.addEventListener("input", ()=>{
+          let colorG = colorGInput.value;
+          hexaGInput.value = colorG;
+          
+
+          document.querySelector("#boxx").style.backgroundColor = colorG
+        });
+
+
+        colorPInput.addEventListener("input", ()=>{
+          let colorP = colorPInput.value;
+          hexaPInput.value = colorP;
+          
+
+          document.querySelector("#minibox").style.backgroundColor = colorP
+        });
+
+    </script>
 </body>
 </html>
