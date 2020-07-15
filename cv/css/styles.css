@@ -1,0 +1,35 @@
+
+#navbar-collapse-1 ul{
+	text-align: center;
+}
+#navbar-collapse-1 ul a:hover {
+	background: #E7E7E7; 
+}
+
+
+div > h2{
+	background: #E7E7E7;
+	float: right;
+	position: relative;
+	right: 25%;
+	text-transform: capitalize;
+}
+
+#begin{
+	padding-top: 20px;
+}
+
+#content-left div{
+	padding-left: 0px ;
+	padding-right: 0px ;
+}
+.contentx p, h3, ul{
+	position: relative;
+	padding: 0px 10%;
+}
+
+.titles{
+	background: #E7E7E7;
+	position: relative;
+	padding: 0px 0px 20%;
+}
